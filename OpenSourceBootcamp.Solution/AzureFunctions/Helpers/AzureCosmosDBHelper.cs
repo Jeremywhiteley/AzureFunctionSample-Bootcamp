@@ -9,9 +9,9 @@ namespace AzureFunctions.Helpers
 {
     public class AzureCosmosDBHelper : IDisposable
     {
-        private const string _dbName = "SampleDB";
-        private const string _endpoint = "https://cosmos-db.documents.azure.com:443/";
-        private const string _authKey = "BxIL4JpStJPvNhlSQOxM1DMFFUgTl6jnVUv7VLbEWqFDUg68PojsisRzdxblKfon9irw1UTyklue5iVFTCphEA==";
+        private const string _dbName = "DataBaseName";
+        private const string _endpoint = "DataBaseEndPoint";
+        private const string _authKey = "DataBaseKey";
 
         public Task Save<T>(T item) where T : class
         {
