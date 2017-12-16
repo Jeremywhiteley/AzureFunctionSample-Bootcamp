@@ -1,2 +1,2 @@
-# OpenSourceBootcamp
-Exemplo de Azure Functions com Azure Cosmos DB (SQL) para Open Source Bootcamp
+# Open Source Bootcamp - Hack-a-bot 
+Exemplo utilizando Azure Functions com Azure CosmosDB
